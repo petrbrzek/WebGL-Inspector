@@ -7,6 +7,7 @@ function onRequest(request, sender, sendResponse) {
 
     // Return nothing to let the connection be cleaned up.
     sendResponse({});
+    return true;
 };
 
 // Listen for the content script to send a message to the background page.
